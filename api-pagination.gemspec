@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.test_files    = Dir['spec/**/*']
   s.require_paths = ['lib']
 
-  s.required_ruby_version = '> 2.7'
+  s.required_ruby_version = '> 2.6'
 
   s.add_development_dependency 'kaminari', '~> 1.2', '>= 1.2.1'
   s.add_development_dependency 'pagy', '~> 5.1', '>= 5.1.2'
